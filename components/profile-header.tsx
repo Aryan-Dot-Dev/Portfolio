@@ -45,7 +45,7 @@ export function ProfileHeader() {
             <div className="text-gray-500 dark:text-gray-400">Full Stack & Blockchain Developer</div>
             <p className="mt-1">Aimed to create mindful and unique solutions. Based in New Delhi, India.</p>
             <Link href="#" className="text-[#00376b] dark:text-[#e0f1ff] font-semibold">
-              designportfolio.com
+                https://aryan-dot-dev-portfolio.vercel.app/
             </Link>
           </div>
         </div>
