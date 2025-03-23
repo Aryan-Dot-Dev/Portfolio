@@ -94,7 +94,7 @@ export function StoryViewer({ highlight, onClose }: StoryViewerProps) {
           <div className="relative w-full h-full">
             <Image
               loading="lazy"
-              src="img_6987.jpg"
+              src="IMG_6987.JPG"
               alt="Profile"
               fill
               className="object-cover"
