@@ -17,7 +17,7 @@ export function ProfileHeader() {
               width={150}
               height={150}
               className="object-cover w-full h-full"
-              priority
+              
             />
           </div>
         </div>
