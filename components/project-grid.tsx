@@ -31,7 +31,7 @@ export function ProjectGrid() {
       id: 2,
       title: "Dynamic Route Optimizer",
       username: "aryan_dot_dev",
-      userAvatar: "IMG_6987.jpg",
+      userAvatar: "img_6987.jpg",
       thumbnail: "/project2/image1.png",
       images: ["/project2/image1.png", "/project2/image2.png", "/project2/image3.png", "/project2/image4.png"],
       description:

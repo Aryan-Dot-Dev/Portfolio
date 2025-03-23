@@ -93,6 +93,7 @@ export function StoryViewer({ highlight, onClose }: StoryViewerProps) {
         <div className="w-8 h-8 rounded-full overflow-hidden flex-shrink-0">
           <div className="relative w-full h-full">
             <Image
+              loading="lazy"
               src="img_6987.jpg"
               alt="Profile"
               fill
@@ -109,6 +110,7 @@ export function StoryViewer({ highlight, onClose }: StoryViewerProps) {
         {story.type === "image" && (
           <div className="relative w-full h-full ">
             <Image
+              loading="lazy"
               src={story.content || "/placeholder.svg"}
               alt={`Story ${currentIndex + 1}`}
               fill

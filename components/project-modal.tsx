@@ -36,6 +36,7 @@ export function ProjectModal({ project, isOpen, onClose }: ProjectModalProps) {
             {/* Image Section */}
             <div className="relative bg-black w-full md:w-[55%] aspect-square md:aspect-auto">
               <Image
+                loading="lazy"
                 src={project.images[currentImageIndex] || "/placeholder.svg"}
                 alt={project.title}
                 fill
@@ -86,6 +87,7 @@ export function ProjectModal({ project, isOpen, onClose }: ProjectModalProps) {
                   <div className="w-8 h-8 rounded-full overflow-hidden flex-shrink-0">
                     <div className="relative w-full h-full">
                       <Image
+                        loading="lazy"
                         src={project.userAvatar || "/placeholder.svg"}
                         alt={project.username}
                         fill
@@ -107,6 +109,7 @@ export function ProjectModal({ project, isOpen, onClose }: ProjectModalProps) {
                   <div className="w-8 h-8 rounded-full overflow-hidden flex-shrink-0">
                     <div className="relative w-full h-full">
                       <Image
+                        loading="lazy"
                         src={project.userAvatar || "/placeholder.svg"}
                         alt={project.username}
                         fill
@@ -129,6 +132,7 @@ export function ProjectModal({ project, isOpen, onClose }: ProjectModalProps) {
                     <div className="w-8 h-8 rounded-full overflow-hidden flex-shrink-0">
                       <div className="relative w-full h-full">
                         <Image
+                          loading="lazy"
                           src={comment.avatar || "/placeholder.svg"}
                           alt={comment.username}
                           fill

@@ -116,6 +116,7 @@ export function HighlightsSection() {
             <div className="w-[77px] h-[77px] rounded-full border border-gray-300 dark:border-gray-700 p-[2px] mb-1">
               <div className="w-full h-full rounded-full overflow-hidden">
                 <Image
+                  loading="lazy"
                   src={highlight.thumbnail || "/placeholder.svg"}
                   alt={highlight.title}
                   width={77}

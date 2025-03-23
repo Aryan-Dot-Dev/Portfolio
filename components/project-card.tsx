@@ -18,7 +18,7 @@ export function ProjectCard({ project, onClick }: ProjectCardProps) {
 
   return (
     <div className="aspect-square relative cursor-pointer group" onClick={onClick}>
-      <Image src={project.thumbnail || "/placeholder.svg"} alt={project.title} fill className="object-cover" />
+      <Image loading="lazy" src={project.thumbnail || "/placeholder.svg"} alt={project.title} fill className="object-cover" />
       <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-200 flex items-center justify-center opacity-0 group-hover:opacity-100">
         <div className="flex items-center gap-7 text-white">
           <div className="flex items-center gap-1">

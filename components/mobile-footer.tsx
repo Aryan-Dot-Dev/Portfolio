@@ -21,6 +21,7 @@ export function MobileFooter() {
         <Link href="#" className="flex flex-col items-center">
           <div className="w-7 h-7 rounded-full overflow-hidden border border-gray-300 dark:border-gray-700">
             <Image
+              loading="lazy"
               src="/placeholder.svg?height=28&width=28"
               alt="Profile"
               width={28}
