@@ -12,7 +12,7 @@ export function ProfileHeader() {
           <div className="w-[77px] h-[77px] sm:w-[150px] sm:h-[150px] rounded-full border border-gray-300 dark:border-gray-700 overflow-hidden">
             <Image
               loading="lazy"
-              src="img_6987.jpg"
+              src="IMG_6987.JPG"
               alt="Profile"
               width={150}
               height={150}
